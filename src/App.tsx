@@ -10,8 +10,11 @@ function App() {
       <Layout>
         <Line />
         <Notice />
+        <Line />
         <TopBanner />
+        <Line />
         <BottomBanner />
+        <Line />
       </Layout>
     </>
   );
