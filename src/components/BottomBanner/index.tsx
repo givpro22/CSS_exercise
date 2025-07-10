@@ -1,7 +1,8 @@
 import React from "react";
+import { BottomBannerStyle } from "./style";
 
 function BottomBanner() {
-  return <div>BottomBanner</div>;
+  return <div style={BottomBannerStyle}>BottomBanner</div>;
 }
 
 export default BottomBanner;

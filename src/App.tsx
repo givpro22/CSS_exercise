@@ -6,7 +6,7 @@ import Layout from "./layout";
 
 function App() {
   return (
-    <>
+    <main>
       <Layout>
         <Line />
         <Notice />
@@ -16,7 +16,7 @@ function App() {
         <BottomBanner />
         <Line />
       </Layout>
-    </>
+    </main>
   );
 }
 
