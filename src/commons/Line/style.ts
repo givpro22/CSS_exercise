@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 
 export const HorizontalSpacing: CSSProperties = {
-  backgroundColor: "darkgray",
-  height: "1rem",
+  backgroundColor: "#F5F8FA",
+  height: "0.3rem",
   width: "100%",
 };
