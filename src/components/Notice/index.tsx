@@ -15,7 +15,7 @@ function Notice() {
         }}
       >
         <HiMiniMegaphone size={20} />
-        <span style={{ fontSize: "15px" }}>
+        <span style={{ fontSize: "13px", fontWeight: 500 }}>
           간편주문으로 증권사 앱 가지 않고 바로 주문!
         </span>
       </div>

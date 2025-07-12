@@ -1,8 +1,29 @@
-import React from "react";
-import { TopBannerStyle } from "./style";
+import {
+  TopBannerItem,
+  TopBannerStyle,
+  TopBannerContainer,
+  HelpButtonContainer,
+  HelpButton,
+} from "./style";
+import StockIndex from "./ StockIndex";
+import { StockIndexData } from "../../mock/StockIndexData";
 
 function TopBanner() {
-  return <div style={TopBannerStyle}>TopBanner</div>;
+  return (
+    <div style={TopBannerContainer}>
+      <div style={TopBannerStyle}>
+        {StockIndexData.map((item, index) => (
+          <div key={index} style={TopBannerItem}>
+            <StockIndex item={item} />
+          </div>
+        ))}
+        <div style={{ justifyItems: "center" }}></div>
+      </div>
+      <div style={HelpButtonContainer}>
+        <button style={HelpButton}>도움말</button>
+      </div>
+    </div>
+  );
 }
 
 export default TopBanner;
